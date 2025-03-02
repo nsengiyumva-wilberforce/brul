@@ -134,7 +134,7 @@
 
                 <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
-                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/avatar.png" class="img-fluid" alt="">
                         <h4>James Bahati</h4>
                         <span>Director</span>
                     </div>
@@ -142,7 +142,7 @@
 
                 <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
                     <div class="member">
-                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/avatar.png" class="img-fluid" alt="">
                         <h4>Simon Obel Omondi</h4>
                         <span>Director Operations</span>
                     </div>
@@ -151,7 +151,7 @@
 
                 <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
                     <div class="member">
-                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/avatar.png" class="img-fluid" alt="">
                         <h4>David Musenero</h4>
                         <span>Director Marketing</span>
                     </div>
