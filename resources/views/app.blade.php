@@ -13,8 +13,8 @@
     )">
 
     <!-- Favicons -->
-    <link href="/assets/img/logo.png" rel="icon">
-    <link href="/assets/img/logo.png" rel="apple-touch-icon">
+    <link href="/assets/img/logo-2025.png" rel="icon">
+    <link href="/assets/img/logo-2025.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -43,7 +43,7 @@
 
             <a href="/" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="/assets/img/logo-enhanced.png" alt="">
+                <img src="/assets/img/logo-2025.png" alt="">
                 {{-- <h1 class="sitename">Riverstone</h1> <span>.</span> --}}
             </a>
 

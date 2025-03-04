@@ -12,7 +12,7 @@
                <div class="container">
                    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
                        <div class="col-lg-6 text-center">
-                           <h2>Blessed Riverstones Ltd</h2>
+                           <h2>Blessed Riverstones Uganda Ltd</h2>
                            <p>
                                Blessed RiverStones (U) Limited is a registered Ugandan entity specializing in mining,
                                export, and import of precious minerals, including gold, diamonds, copper, and tantalite.
@@ -82,13 +82,18 @@
                    </div>
 
                    <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-                       <form action="forms/quote.php" method="post" class="php-email-form">
+                       <form id="contactForm" class="php-email-form">
+                           @csrf
                            <h3 style="color: #6EC5E9;">Request a Partnership Proposal</h3>
                            <p>
                                Explore tailored mineral sourcing or export opportunities. Share your requirements, and our
                                team will provide competitive pricing, compliance details, and logistics plans within 24
                                hours.
                            </p>
+
+                           <!-- Success and Error Messages -->
+                           <div id="responseMessage" class="alert" style="display: none;"></div>
+
                            <div class="row gy-3">
                                <div class="col-12">
                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
@@ -104,15 +109,57 @@
                                        placeholder="Message (e.g., mineral type, volume, destination)" required></textarea>
                                </div>
                                <div class="col-12 text-center">
-                                   <div class="loading">Loading</div>
-                                   <div class="error-message"></div>
-                                   <div class="sent-message">Your inquiry has been sent! Our team will contact you shortly.
-                                   </div>
+                                   <div class="loading" style="display: none;">Loading...</div>
                                    <button type="submit">Submit Request</button>
                                </div>
                            </div>
                        </form>
                    </div><!-- End Quote Form -->
+
+                   <script>
+                       document.getElementById("contactForm").addEventListener("submit", function(event) {
+                           event.preventDefault(); // Prevent default form submission
+
+                           let formData = new FormData(this);
+                           let loadingIndicator = document.querySelector('.loading');
+                           let responseMessage = document.getElementById('responseMessage');
+
+                           // Show loading
+                           loadingIndicator.style.display = 'block';
+
+                           // Clear previous messages
+                           responseMessage.style.display = 'none';
+                           responseMessage.classList.remove('alert-success', 'alert-danger');
+
+                           // Send the form data via AJAX
+                           fetch("{{ route('contact-us') }}", {
+                                   method: 'POST',
+                                   body: formData,
+                               })
+                               .then(response => response.json())
+                               .then(data => {
+                                   loadingIndicator.style.display = 'none'; // Hide loading indicator
+
+                                   if (data.status === 'success') {
+                                       responseMessage.classList.add('alert-success');
+                                       responseMessage.textContent = data.message;
+                                   } else {
+                                       responseMessage.classList.add('alert-danger');
+                                       responseMessage.textContent = data.message;
+                                   }
+
+                                   responseMessage.style.display = 'block';
+                               })
+                               .catch(error => {
+                                   loadingIndicator.style.display = 'none'; // Hide loading indicator
+                                   responseMessage.classList.add('alert-danger');
+                                   responseMessage.textContent = 'An error occurred. Please try again later.';
+                                   responseMessage.style.display = 'block';
+                               });
+                       });
+                   </script>
+
+
                </div>
            </div>
        </section><!-- /Get Started Section -->
@@ -590,7 +637,7 @@
                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                        <div class="member">
                            <img src="assets/img/avatar.png" class="img-fluid" alt="">
-                           <h4>James Bahati</h4>
+                           <h4>Jailes Bahati</h4>
                            <span>Director</span>
                        </div>
                    </div><!-- End Team Member -->

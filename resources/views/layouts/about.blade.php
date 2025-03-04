@@ -135,7 +135,7 @@
                 <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
                         <img src="assets/img/avatar.png" class="img-fluid" alt="">
-                        <h4>James Bahati</h4>
+                        <h4>Jailes Bahati</h4>
                         <span>Director</span>
                     </div>
                 </div><!-- End Team Member -->
