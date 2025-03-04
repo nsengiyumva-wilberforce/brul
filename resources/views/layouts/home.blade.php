@@ -6,7 +6,7 @@
    @section('keywords', 'riverstones, Uganda, home, riverstone products')
    @section('content')
        <!-- Hero Section -->
-       <section id="hero" class="hero section dark-background">
+       <section id="hero" class="hero section dark-background mt-5">
 
            <div class="info d-flex align-items-center">
                <div class="container">
