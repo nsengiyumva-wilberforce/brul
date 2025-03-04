@@ -37,7 +37,6 @@
                         <h3>Mineral Exploration & Sourcing</h3>
                         <p>Ethical extraction of gold, diamonds, copper, and tantalite from licensed Ugandan mines.
                             Compliant with Ministry of Energy guidelines (MDL 20240338).</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div><!-- End Service Item -->
 
@@ -50,7 +49,6 @@
                         <h3>Global Export Solutions</h3>
                         <p>Seamless logistics for worldwide mineral distribution, backed by CITI Bank-intermediated
                             transactions and FIA-2023-0001489 compliance.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div><!-- End Service Item -->
 
@@ -63,7 +61,6 @@
                         <h3>Regulatory Compliance Assurance</h3>
                         <p>End-to-end adherence to Ugandan Mining Act 2022, Anti-Money Laundering Act, and KCCA Trade
                             License standards.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div><!-- End Service Item -->
 
@@ -76,7 +73,6 @@
                         <h3>Quality Control & Lab Testing</h3>
                         <p>Internationally recognized mineral certification and purity analysis, available on request for
                             transparency.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div><!-- End Service Item -->
 
@@ -89,7 +85,6 @@
                         <h3>Sustainable Mining Practices</h3>
                         <p>Environmentally responsible operations aligned with Uganda National Chamber of Commerce
                             sustainability pledges.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div><!-- End Service Item -->
 
@@ -102,7 +97,6 @@
                         <h3>Financial & Trade Facilitation</h3>
                         <p>Secure transactions via DFCU Bank (Account 02360010088883) and tailored trade agreements for
                             bulk buyers.</p>
-                        <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div><!-- End Service Item -->
             </div>
