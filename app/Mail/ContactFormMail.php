@@ -30,7 +30,7 @@ class ContactFormMail extends Mailable
     {
         return new Envelope(
             subject: 'Contact Form Mail[FROM BLESSED RIVERSTONES WEBSITE]',  // You can modify this subject if needed
-            from: 'no-reply@yourdomain.com'  // Optionally, specify a "from" email address
+            from: 'info@blessedriverstones.co.ug'  // Optionally, specify a "from" email address
         );
     }
 
