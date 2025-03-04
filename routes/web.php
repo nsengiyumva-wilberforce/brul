@@ -31,7 +31,7 @@ Route::post('/contact-us', function () {
 
     // Send the email to the specified address
     try {
-        Mail::to('nsengiyumvawilberforce@gmail.com')->send(new ContactFormMail($data));
+        Mail::to('info@blessedriverstones.co.ug')->send(new ContactFormMail($data));
         return response()->json([
             'status' => 'success',
             'message' => 'Your message has been sent successfully! We will get in touch with you.'
