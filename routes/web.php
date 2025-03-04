@@ -21,8 +21,12 @@ Route::get('/services', function () {
     return view('layouts.services');
 })->name('services');
 
+Route::get('/contact-us', function () {
+    return view('layouts.contact');
+})->name('contact-us');
 
-Route::post('/contact-us', function () {
+
+Route::post('/contact-us-email', function () {
     $data = request()->validate([
         'name' => 'required',
         'email' => 'required|email',
@@ -42,5 +46,5 @@ Route::post('/contact-us', function () {
             'message' => 'There was an error sending your message. Please try again later.'
         ], 500);
     }
-})->name('contact-us');
+})->name('contact-us-email');
 

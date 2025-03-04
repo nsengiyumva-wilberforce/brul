@@ -132,7 +132,7 @@
                            responseMessage.classList.remove('alert-success', 'alert-danger');
 
                            // Send the form data via AJAX
-                           fetch("{{ route('contact-us') }}", {
+                           fetch("{{ route('contact-us-email') }}", {
                                    method: 'POST',
                                    body: formData,
                                })
