@@ -21,12 +21,6 @@ Route::get('/services', function () {
     return view('layouts.services');
 })->name('services');
 
-Route::get('/contact-us', function () {
-    return view('layouts.contact');
-})->name('contact-us');
-
-
-
 
 Route::post('/contact-us', function () {
     $data = request()->validate([
