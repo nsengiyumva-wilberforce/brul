@@ -110,7 +110,7 @@
                         <i class="bi bi-speedometer2 flex-shrink-0"></i>
                         <div>
                             <h4><a href="#" class="stretched-link">24-Hour Export Readiness</a></h4>
-                            <p>Pre-cleared shipments via Kampala Capital City Authority (KCCA License 0000490015).</p>
+                            <p>Pre-cleared shipments via Uganda Revenue Authority (TIN 1018736956).</p>
                         </div>
                     </div><!-- End Icon Box -->
                 </div>
