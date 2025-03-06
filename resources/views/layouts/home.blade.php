@@ -16,7 +16,7 @@
                            <p>
                                Blessed RiverStones (U) Limited is a registered Ugandan entity specializing in mining,
                                export, and import of precious minerals, including gold, diamonds, copper, and tantalite.
-                               Licensed by the Ministry of Energy and Mineral Development (MDL 20240338) and compliant with
+                               Licensed by the Ministry of Energy and Mineral Development and compliant with
                                the Anti-Money Laundering Act, we operate with integrity and transparency.
                            </p>
                        </div>
@@ -67,7 +67,7 @@
                            <h3>Ethical Mineral Trade Solutions for Global Markets</h3>
                            <p>
                                At Blessed RiverStones (U) Limited, we combine Ugandan mineral wealth with international
-                               compliance standards. Licensed by the Ministry of Energy (MDL 20240338) and registered with
+                               compliance standards. Licensed by the Ministry of Energy and registered with
                                the Financial Intelligence Authority (FIA-2023-0001489), we ensure transparent sourcing and
                                export of gold, diamonds, copper, and tantalite. Our Kampala-based operations are backed by
                                certifications from the Uganda National Chamber of Commerce and CITI Bank-backed financial
@@ -187,7 +187,7 @@
                                    <div class="card-body">
                                        <h4 class="card-title">High-Purity Gold</h4>
                                        <p>
-                                           Ethically mined and globally certified (MDL 20240338). Our gold meets LBMA
+                                           Ethically mined and globally certified. Our gold meets LBMA
                                            standards for international trade, with lab-tested purity of 99.6%. Exported
                                            under Ministry of Energy permits to Europe, Asia, and the Americas.
                                        </p>
@@ -358,7 +358,7 @@
                            </div>
                            <h3>Mineral Exploration & Sourcing</h3>
                            <p>Ethical extraction of gold, diamonds, copper, and tantalite from licensed Ugandan mines.
-                               Compliant with Ministry of Energy guidelines (MDL 20240338).</p>
+                               Compliant with Ministry of Energy guidelines.</p>
                        </div>
                    </div><!-- End Service Item -->
 
@@ -449,7 +449,7 @@
                            <i class="bi bi-globe flex-shrink-0"></i>
                            <div>
                                <h4><a href="#" class="stretched-link">Globally Certified Minerals</a></h4>
-                               <p>Lab-tested purity with Ministry of Energy approval (MDL 20240338). Export-ready for EU,
+                               <p>Lab-tested purity with Ministry of Energy approval. Export-ready for EU,
                                    Asia, and Americas.</p>
                            </div>
                        </div><!-- End Icon Box -->

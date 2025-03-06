@@ -41,7 +41,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title">High-Purity Gold</h4>
                                     <p>
-                                        Ethically mined and globally certified (MDL 20240338). Our gold meets LBMA
+                                        Ethically mined and globally certified. Our gold meets LBMA
                                         standards for international trade, with lab-tested purity of 99.6%. Exported
                                         under Ministry of Energy permits to Europe, Asia, and the Americas.
                                     </p>

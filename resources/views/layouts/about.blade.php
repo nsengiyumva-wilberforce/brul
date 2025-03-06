@@ -34,7 +34,7 @@
                         <h3>Who Are We?</h3>
                         <p>Blessed RiverStones (U) Limited is a registered Ugandan entity specializing in mining, export,
                             and import of precious minerals, including gold, diamonds, copper, and tantalite. Licensed by
-                            the Ministry of Energy and Mineral Development (MDL 20240338) and compliant with the Anti-Money
+                            the Ministry of Energy and Mineral Development and compliant with the Anti-Money
                             Laundering Act, we operate with integrity and transparency. Our operations are anchored in
                             Kampala, with certifications from the Uganda National Chamber of Commerce and the Financial
                             Intelligence Authority (FIA-2023-0001489). Equipped with globally recognized permits, we export
@@ -80,7 +80,7 @@
                         <i class="bi bi-globe flex-shrink-0"></i>
                         <div>
                             <h4><a href="#" class="stretched-link">Globally Certified Minerals</a></h4>
-                            <p>Lab-tested purity with Ministry of Energy approval (MDL 20240338). Export-ready for EU,
+                            <p>Lab-tested purity with Ministry of Energy approval. Export-ready for EU,
                                 Asia, and Americas.</p>
                         </div>
                     </div><!-- End Icon Box -->

@@ -36,7 +36,7 @@
                         </div>
                         <h3>Mineral Exploration & Sourcing</h3>
                         <p>Ethical extraction of gold, diamonds, copper, and tantalite from licensed Ugandan mines.
-                            Compliant with Ministry of Energy guidelines (MDL 20240338).</p>
+                            Compliant with Ministry of Energy guidelines.</p>
                     </div>
                 </div><!-- End Service Item -->
 
