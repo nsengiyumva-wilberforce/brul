@@ -1,7 +1,8 @@
 @extends('app')
 
 @section('title', 'Services - Blessed Riverstones Uganda')
-@section('description', 'Discover the various services provided by Blessed Riverstones Uganda, including riverstone
+@section('description',
+    'Discover the various services provided by Blessed Riverstones Uganda, including riverstone
     supply and more.')
 @section('keywords', 'services, riverstones, Uganda, construction services, stone supply')
 @section('content')
@@ -97,6 +98,30 @@
                         <h3>Financial & Trade Facilitation</h3>
                         <p>Secure transactions via DFCU Bank (Account 02360010088883) and tailored trade agreements for
                             bulk buyers.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <!-- Value Addition & Smelting -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-fire"></i>
+                        </div>
+                        <h3>Value Addition & Smelting</h3>
+                        <p>Refining and smelting of minerals to increase purity and market value, ensuring compliance with
+                            international standards.</p>
+                    </div>
+                </div><!-- End Service Item -->
+
+                <!-- Mining Consultation Services -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-comments"></i>
+                        </div>
+                        <h3>Mining Consultation Services</h3>
+                        <p>Expert advisory on mineral investments, regulatory compliance, and sustainable mining strategies
+                            tailored to your business.</p>
                     </div>
                 </div><!-- End Service Item -->
             </div>

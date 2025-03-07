@@ -138,6 +138,30 @@ h6 {
     transform: rotate(360deg);
   }
 }
+/* Make the alert bar smaller and responsive */
+#top-alert {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1050; /* Ensure it's above the header */
+  padding: 5px 10px; /* Reduce padding for a smaller height */
+  font-size: 20px; /* Adjust font size for smaller screens */
+  line-height: 1.2;
+}
+
+/* Adjust header to avoid overlap */
+#header {
+  top: 25px; /* Reduce gap to match smaller alert */
+}
+
+/* Make sure text wraps properly on smaller screens */
+@media (max-width: 768px) {
+  #top-alert {
+      font-size: 11px;
+      padding: 4px 8px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Global Header

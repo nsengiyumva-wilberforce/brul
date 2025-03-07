@@ -9,7 +9,7 @@
     <meta name="keywords" content="@yield(
         'keywords',
         'GOLD MINING, GOLD EXPORT, GOLD IMPORT, DIAMOND MINING, PRECIOUS STONES, BLESSED RIVERSTONES UGANDA LIMITED, BLESSED RIVERSTONES, BLESSED RIVERSTONES UGANDA,RIVERSTONES, DIAMONDS, COPPER AND
-    TANTALITE'
+                TANTALITE'
     )">
 
     <!-- Favicons -->
@@ -37,29 +37,34 @@
 </head>
 
 <body class="index-page">
+<!-- Disclaimer Alert -->
+<div class="alert alert-warning text-center m-0 p-1" role="alert" id="top-alert">
+    <marquee behavior="scroll" direction="left">
+        <strong>Disclaimer:</strong> Be aware of scammers using our name. For more details, contact us via email or WhatsApp at <strong>0414673642</strong>.
+    </marquee>
+</div>
 
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+<!-- Header -->
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="/" class="logo d-flex align-items-center">
+            <img src="/assets/img/logo-2025.png" alt="">
+        </a>
 
-            <a href="/" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="/assets/img/logo-2025.png" alt="">
-                {{-- <h1 class="sitename">Riverstone</h1> <span>.</span> --}}
-            </a>
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="/" class="{{ request()->routeIs('/') ? 'active' : '' }}">Home</a></li>
+                <li><a href="/about" class="{{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li>
+                <li><a href="/services" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
+                <li><a href="/products" class="{{ request()->routeIs('projects') ? 'active' : '' }}">Products</a></li>
+                <li><a href="/contact-us" class="{{ request()->routeIs('contact-us') ? 'active' : '' }}">Contact Us</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+    </div>
+</header>
 
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="/" class="{{ request()->routeIs('/') ? 'active' : '' }}">Home</a></li>
-                    <li><a href="/about" class="{{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li>
-                    <li><a href="/services" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
-                    <li><a href="/products" class="{{ request()->routeIs('projects') ? 'active' : '' }}">Products</a></li>
-                    <li><a href="/contact-us" class="{{ request()->routeIs('contact-us') ? 'active' : '' }}">Contact Us</a></li>
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
 
-        </div>
-    </header>
 
     <main class="main">
         @yield('content')
@@ -76,7 +81,8 @@
                     <div class="footer-contact pt-3">
                         <p> Plot 1610 Mayanja Close, Bukoto</p>
                         <p>Kisasi Road, P.O Box 153884 Kampala (U)</p>
-                        <p class="mt-3"><strong>Phone:</strong> <span>+256 414 673642/ +256 200 917871/ +256 772 906936/+256 702 352536/ +256 780 385820</span></p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+256 414 673642/ +256 200 917871/ +256 772
+                                906936/+256 702 352536/ +256 780 385820</span></p>
                         <p><strong>Email:</strong> <span>info@blessedriverstone.co.ug</span></p>
                     </div>
                     <div class="social-links d-flex mt-4">
@@ -126,8 +132,10 @@
         </div>
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">Blessed Riverstone Uganda Limited</strong> <span>All Rights
-                    Reserved</span></p>
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Blessed Riverstone Uganda Limited</strong>
+                <span>All Rights
+                    Reserved</span>
+            </p>
         </div>
 
     </footer>

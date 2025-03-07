@@ -421,6 +421,31 @@
                                bulk buyers.</p>
                        </div>
                    </div><!-- End Service Item -->
+                   <!-- Value Addition & Smelting -->
+                   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                       <div class="service-item position-relative">
+                           <div class="icon">
+                               <i class="fa-solid fa-fire"></i>
+                           </div>
+                           <h3>Value Addition & Smelting</h3>
+                           <p>Refining and smelting of minerals to increase purity and market value, ensuring compliance
+                               with
+                               international standards.</p>
+                       </div>
+                   </div><!-- End Service Item -->
+
+                   <!-- Mining Consultation Services -->
+                   <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
+                       <div class="service-item position-relative">
+                           <div class="icon">
+                               <i class="fa-solid fa-comments"></i>
+                           </div>
+                           <h3>Mining Consultation Services</h3>
+                           <p>Expert advisory on mineral investments, regulatory compliance, and sustainable mining
+                               strategies
+                               tailored to your business.</p>
+                       </div>
+                   </div><!-- End Service Item -->
                </div>
            </div>
        </section><!-- /Services Section -->
@@ -652,4 +677,5 @@
            </div>
 
        </section><!-- /Team Section -->
+       
    @endsection
