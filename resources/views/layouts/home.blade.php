@@ -14,8 +14,8 @@
                        <div class="col-lg-6 text-center">
                            <h2>Blessed Riverstones Uganda Ltd</h2>
                            <p>
-                               Blessed RiverStones (U) Limited is a registered Ugandan entity specializing in mining,
-                               export, and import of precious minerals, including gold, diamonds, copper, and tantalite.
+                               Blessed RiverStones (U) Limited is a registered Ugandan entity specializing in mining and
+                               export of precious minerals, including gold, diamonds, copper, and tantalite.
                                Licensed by the Ministry of Energy and Mineral Development and compliant with
                                the Anti-Money Laundering Act, we operate with integrity and transparency.
                            </p>
