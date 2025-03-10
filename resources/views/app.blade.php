@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>@yield('title', 'BLESSED RIVERSTONES UGANDA LIMITED')</title>
-    <meta name="description" content="@yield('description', 'MINING, EXPORT AND IMPORT OF PRECIOUS STONES')">
+    <meta name="description" content="@yield('description', 'MINING, AND EXPORT OF PRECIOUS STONES')">
     <meta name="keywords" content="@yield(
         'keywords',
         'GOLD MINING, GOLD EXPORT, GOLD IMPORT, DIAMOND MINING, PRECIOUS STONES, BLESSED RIVERSTONES UGANDA LIMITED, BLESSED RIVERSTONES, BLESSED RIVERSTONES UGANDA,RIVERSTONES, DIAMONDS, COPPER AND

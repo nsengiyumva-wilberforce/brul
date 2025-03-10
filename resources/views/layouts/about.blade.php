@@ -32,8 +32,7 @@
                     <div class="our-story">
                         <h4>Entity Registration Number: 80020003113202</h4>
                         <h3>Who Are We?</h3>
-                        <p>Blessed RiverStones (U) Limited is a registered Ugandan entity specializing in mining, export,
-                            and import of precious minerals, including gold, diamonds, copper, and tantalite. Licensed by
+                        <p>Blessed RiverStones (U) Limited is a registered Ugandan entity specializing in mining and export of precious minerals, including gold, diamonds, copper, and tantalite. Licensed by
                             the Ministry of Energy and Mineral Development and compliant with the Anti-Money
                             Laundering Act, we operate with integrity and transparency. Our operations are anchored in
                             Kampala, with certifications from the Uganda National Chamber of Commerce and the Financial
