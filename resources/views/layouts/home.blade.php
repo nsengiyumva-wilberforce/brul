@@ -677,5 +677,46 @@
            </div>
 
        </section><!-- /Team Section -->
-       
+
+       <!-- Recent Blog Posts Section -->
+       <section id="recent-blog-posts" class="recent-blog-posts section">
+
+           <!-- Section Title -->
+           <div class="container section-title" data-aos="fade-up">
+               <h2>Recent Blog Posts</h2>
+               <p>Know what we are doing to serve you better! Keep up to date.</p>
+           </div><!-- End Section Title -->
+
+           <div class="container">
+
+            <div class="row gy-5">
+                @foreach ($news as $item)
+                    <div class="col-xl-4 col-md-6">
+                        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+                            <div class="post-img position-relative overflow-hidden">
+                                <img src="{{ asset('assets/img/blog/blog-banner.png') }}" class="img-fluid" alt="Blessed Riverstone uganda Limited">
+                                <span class="post-date">{{ $item->created_at->format('F') }}
+                                    {{ $item->created_at->format('d') }}</span>
+                            </div>
+
+                            <div class="post-content d-flex flex-column">
+
+                                <h3 class="post-title">{{ $item->title }}</h3>
+                                <hr>
+
+                                <a href="/news-detail/{{ $item->id }}" class="readmore stretched-link"><span>Read
+                                        More</span><i class="bi bi-arrow-right"></i></a>
+
+                            </div>
+
+                        </div>
+                    </div><!-- End post item -->
+                @endforeach
+            </div>
+
+        </div>
+
+       </section><!-- /Recent Blog Posts Section -->
+
    @endsection

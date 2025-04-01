@@ -1,11 +1,13 @@
 <?php
 
+use App\Models\News;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactFormMail;
 
 Route::get('/', function () {
-    return view('layouts.home');
+    $news = News::take(4)->get(); // Gets the first 4 records
+    return view('layouts.home', compact('news'));
 });
 
 Route::get('/about', function () {
@@ -24,6 +26,21 @@ Route::get('/services', function () {
 Route::get('/contact-us', function () {
     return view('layouts.contact');
 })->name('contact-us');
+
+Route::get('/blog', function () {
+    $news = News::all();
+
+    return view('layouts.news', compact('news'));
+})->name('blog');
+
+Route::get('/news-detail/{id}', function ($id) {
+    $recent = News::whereNot('id', $id)
+        ->select('title', 'created_at', 'id') // Select only needed columns
+        ->latest() // Order by latest entries
+        ->get();
+    $details = News::findOrFail($id);
+    return view('layouts.blog-details', compact('details', 'recent'));
+})->name('blog.details');
 
 
 Route::post('/contact-us-email', function () {

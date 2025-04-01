@@ -57,6 +57,7 @@
                 <li><a href="/about" class="{{ request()->routeIs('about') ? 'active' : '' }}">About Us</a></li>
                 <li><a href="/services" class="{{ request()->routeIs('services') ? 'active' : '' }}">Services</a></li>
                 <li><a href="/products" class="{{ request()->routeIs('projects') ? 'active' : '' }}">Products</a></li>
+                <li><a href="/blog" class="{{ request()->routeIs('blog') ? 'active' : '' }}">Blog</a></li>
                 <li><a href="/contact-us" class="{{ request()->routeIs('contact-us') ? 'active' : '' }}">Contact Us</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
