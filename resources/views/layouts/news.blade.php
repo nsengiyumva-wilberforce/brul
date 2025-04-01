@@ -29,7 +29,7 @@
                             <article class="position-relative h-100">
 
                                 <div class="post-img position-relative overflow-hidden">
-                                    <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
+                                    <img src="{{ asset('assets/img/blog/blog-banner.png') }}" class="img-fluid" alt="">
                                 </div>
 
                                 <div class="meta d-flex align-items-end">
