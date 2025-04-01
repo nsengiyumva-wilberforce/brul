@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\Tags\Url;
+use App\Models\News; // Import your News model
 
 class GenerateSitemap extends Command
 {
@@ -19,7 +20,15 @@ class GenerateSitemap extends Command
             ->add(Url::create('/products'))
             ->add(Url::create('/services'))
             ->add(Url::create('/contact-us'))
-            ->writeToFile(public_path('sitemap.xml'));
+            ->add(Url::create(route('blog'))); // Add the blog route
+
+        // Add news detail URLs dynamically
+        $newsItems = News::all();
+        foreach ($newsItems as $newsItem) {
+            $sitemap->add(Url::create(route('blog.details', ['id' => $newsItem->id])));
+        }
+
+        $sitemap->writeToFile(public_path('sitemap.xml'));
 
         $this->info('Sitemap generated successfully at public/sitemap.xml');
     }
