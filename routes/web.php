@@ -28,7 +28,7 @@ Route::get('/contact-us', function () {
 })->name('contact-us');
 
 Route::get('/blog', function () {
-    $news = News::all();
+    $news = News::paginate(25);
 
     return view('layouts.news', compact('news'));
 })->name('blog');
