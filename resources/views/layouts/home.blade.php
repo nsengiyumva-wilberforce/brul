@@ -548,6 +548,47 @@
                                    </a>
                                </div>
                            </div>
+
+                           <div class="portfolio-content h-100">
+                               <img src="assets/img/img-8.jpeg" class="img-fluid"
+                                   alt="Blessed RiverStones Uganda open-pit gold mining">
+                               <div class="portfolio-info">
+                                   <h4>Harmless Mining Methods</h4>
+                                   <p>A group of our employees manually extract our minerals mechanically to prevent
+                                       environment harm</p>
+                                   <a href="assets/img/img-8.jpeg" title="Gold Mining" data-gallery="portfolio-gallery"
+                                       class="glightbox preview-link">
+                                       <i class="bi bi-zoom-in"></i>
+                                   </a>
+                               </div>
+                           </div>
+
+
+                           <div class="portfolio-content h-100">
+                               <img src="assets/img/img-11.jpeg" class="img-fluid"
+                                   alt="Blessed RiverStones Uganda open-pit gold mining">
+                               <div class="portfolio-info">
+                                   <h4>Open-Pit Gold Mining</h4>
+                                   <p>Gold Extraction</p>
+                                   <a href="assets/img/img-11.jpeg" title="Gold Mining" data-gallery="portfolio-gallery"
+                                       class="glightbox preview-link">
+                                       <i class="bi bi-zoom-in"></i>
+                                   </a>
+                               </div>
+                           </div>
+
+                           <div class="portfolio-content h-100">
+                               <img src="assets/img/img-13.jpeg" class="img-fluid"
+                                   alt="Blessed RiverStones Uganda tool cleaning">
+                               <div class="portfolio-info">
+                                   <h4>Tool cleaning</h4>
+                                   <p>Blessed Riverstones cleaning tools</p>
+                                   <a href="assets/img/img-13.jpeg" title="Gold Mining" data-gallery="portfolio-gallery"
+                                       class="glightbox preview-link">
+                                       <i class="bi bi-zoom-in"></i>
+                                   </a>
+                               </div>
+                           </div>
                        </div><!-- End Portfolio Item -->
 
                        <!-- Mineral Quality Inspection -->
@@ -567,20 +608,20 @@
                        </div><!-- End Portfolio Item -->
 
                        <!-- Ethical Manual Extraction -->
-                       {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-extraction">
+                       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-extraction">
                            <div class="portfolio-content h-100">
-                               <img src="assets/img/min-3.jpg" class="img-fluid"
-                                   alt="Artisanal copper extraction in Uganda">
+                               <img src="assets/img/min-3.jpeg" class="img-fluid"
+                                   alt="Blessed Riverstone artisanal copper extraction in Uganda">
                                <div class="portfolio-info">
                                    <h4>Artisanal Copper Mining</h4>
-                                   <p>Community-focused methods aligned with KCCA Trade License 0000490015</p>
-                                   <a href="assets/img/min-3.jpg" title="Manual Extraction"
+                                   <p>Community-focused methods aligned with the License of Uganda</p>
+                                   <a href="assets/img/min-3.jpeg" title="Manual Extraction"
                                        data-gallery="portfolio-gallery" class="glightbox preview-link">
                                        <i class="bi bi-zoom-in"></i>
                                    </a>
                                </div>
                            </div>
-                       </div><!-- End Portfolio Item --> --}}
+                       </div><!-- End Portfolio Item -->
 
                        <!-- Corporate Headquarters -->
                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-facilities">
@@ -689,33 +730,34 @@
 
            <div class="container">
 
-            <div class="row gy-5">
-                @foreach ($news as $item)
-                    <div class="col-xl-4 col-md-6">
-                        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+               <div class="row gy-5">
+                   @foreach ($news as $item)
+                       <div class="col-xl-4 col-md-6">
+                           <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
 
-                            <div class="post-img position-relative overflow-hidden">
-                                <img src="{{ asset('assets/img/blog/blog-banner.png') }}" class="img-fluid" alt="Blessed Riverstone uganda Limited">
-                                <span class="post-date">{{ $item->created_at->format('F') }}
-                                    {{ $item->created_at->format('d') }}</span>
-                            </div>
+                               <div class="post-img position-relative overflow-hidden">
+                                   <img src="{{ asset('assets/img/blog/blog-banner.png') }}" class="img-fluid"
+                                       alt="Blessed Riverstone uganda Limited">
+                                   <span class="post-date">{{ $item->created_at->format('F') }}
+                                       {{ $item->created_at->format('d') }}</span>
+                               </div>
 
-                            <div class="post-content d-flex flex-column">
+                               <div class="post-content d-flex flex-column">
 
-                                <h3 class="post-title">{{ $item->title }}</h3>
-                                <hr>
+                                   <h3 class="post-title">{{ $item->title }}</h3>
+                                   <hr>
 
-                                <a href="/news-detail/{{ $item->id }}" class="readmore stretched-link"><span>Read
-                                        More</span><i class="bi bi-arrow-right"></i></a>
+                                   <a href="/news-detail/{{ $item->id }}" class="readmore stretched-link"><span>Read
+                                           More</span><i class="bi bi-arrow-right"></i></a>
 
-                            </div>
+                               </div>
 
-                        </div>
-                    </div><!-- End post item -->
-                @endforeach
-            </div>
+                           </div>
+                       </div><!-- End post item -->
+                   @endforeach
+               </div>
 
-        </div>
+           </div>
 
        </section><!-- /Recent Blog Posts Section -->
 
